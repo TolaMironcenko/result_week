@@ -23,22 +23,71 @@
                     <option value="9">семестр 9</option>
                 </select>
             </p>
-            <input class="form-control unit-input" name="sub" type="text" placeholder="предмет"><br>
-            <p>
-                <select class="form-select offset-input" name="offset" id="sem">
-                    <option value="зачтено">зачтено</option>
-                    <option value="не зачтено">не зачтено</option>
-                </select>
-            </p>
-            <!-- <input class="form-control offset-input" name="pas" type="text" placeholder="зачеты"><br> -->
+            <div class="form-footer">
+                <div class="form-footer-term">
+                    <input class="form-control unit-input " name="sub" type="text" placeholder="предмет 1"><br>
+                    <p>
+                        <select class="form-select offset-input select-offset" name="offset" id="sem">
+                            <option value=": не аттестация">не аттестация</option>
+                            <option value=": не зачтено">не зачтено</option>
+                            <option value=": зачтено">зачтено</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-footer-term">
+                    <input class="form-control unit-input " name="sub" type="text" placeholder="предмет 2"><br>
+                    <p>
+                        <select class="form-select offset-input select-offset" name="offset" id="sem">
+                            <option value=": не аттестация">не аттестация</option>
+                            <option value=": не зачтено">не зачтено</option>
+                            <option value=": зачтено">зачтено</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-footer-term">
+                    <input class="form-control unit-input " name="sub" type="text" placeholder="предмет 3"><br>
+                    <p>
+                        <select class="form-select offset-input select-offset" name="offset" id="sem">
+                            <option value=": не аттестация">не аттестация</option>
+                            <option value=": не зачтено">не зачтено</option>
+                            <option value=": зачтено">зачтено</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-footer-term">
+                    <input class="form-control unit-input " name="sub" type="text" placeholder="предмет 4"><br>
+                    <p>
+                        <select class="form-select offset-input select-offset" name="offset" id="sem">
+                            <option value=": не аттестация">не аттестация</option>
+                            <option value=": не зачтено">не зачтено</option>
+                            <option value=": зачтено">зачтено</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-footer-term">
+                    <input class="form-control unit-input " name="sub" type="text" placeholder="предмет 5"><br>
+                    <p>
+                        <select class="form-select offset-input select-offset" name="offset" id="sem">
+                            <option value=": не аттестация">не аттестация</option>
+                            <option value=": не зачтено">не зачтено</option>
+                            <option value=": зачтено">зачтено</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
             <button class="btn btn-primary post-button" type="submit">отправить</button>
+            <button class="btn btn-danger post-button" type="reset">очистить</button>
         </form>
 
         
         <form class="out-form">
             <p>студент: <output class="student-output" name="student"></output></p>
             <p>семестр: <output class="semester-output" name="semester"></output></p>
-            <p>предмет: <output class="unit-output" name="unit"></output></p>
+            <p class="unit-output-p"><output class="unit-output" name="unit"></output></p>
+            <p class="unit-output-p"><output class="unit-output" name="unit"></output></p>
+            <p class="unit-output-p"><output class="unit-output" name="unit"></output></p>
+            <p class="unit-output-p"><output class="unit-output" name="unit"></output></p>
+            <p class="unit-output-p"><output class="unit-output" name="unit"></output></p>
             <p>зачет: <output class="offset-output" name="offset"></output></p>
         </form>
     </div>
